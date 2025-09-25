@@ -27,7 +27,7 @@ private var _binding: FragmentDashboardBinding? = null
     _binding = FragmentDashboardBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
-    val textView: TextView = binding.textDashboard
+    val textView: TextView = binding.Profile
     dashboardViewModel.text.observe(viewLifecycleOwner) {
       textView.text = it
     }
